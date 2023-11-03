@@ -1,0 +1,164 @@
+<div class="content">
+<!--Home Content-->
+<% if (title === 'Home') { %>
+        <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Welcome to My Amazing Portfolio</h1>
+        <p>Showcasing my creative work and skills</p>
+        <a href="/projects" class="btn btn-secondary btn-lg mt-3">View My Work</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-icon">🚀</div>
+                <h2 class="feature-heading">Creative Designs</h2>
+                <p>Explore my innovative and visually appealing designs that leave a lasting impression.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon">💡</div>
+                <h2 class="feature-heading">Innovative Solutions</h2>
+                <p>Discover my problem-solving skills and unique approaches to challenges.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon">🎨</div>
+                <h2 class="feature-heading">Artistic Creations</h2>
+                <p>Immerse yourself in my artistic creations that evoke emotions and inspire creativity.</p>
+            </div>
+        </div>
+    </section>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://img.freepik.com/premium-photo/4k-hd-wallpaper-computer-desktop-with-dark-aesthetic-dope-trippy-wallpapers-cute-girls_12929-108.jpg?w=1380" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Visit my About page</h5>
+        <p class="card-text">Hello there! I'm Jessie, a passionate Artist dedicated to creating meaningful experiences through my work. This portfolio is a glimpse into my creative journey, showcasing my skills, projects, and inspirations. Join me as I explore the world of Art, one project at a time. Thank you for visiting and being a part of my creative adventure!</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.w3schools.com/bootstrap5/la.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Visit my gallery</h5>
+        <p class="card-text">Welcome to my gallery, where images come to life and stories unfold through the lens. Each photograph captures a moment, an emotion, or a breathtaking scene, inviting you into a world of visual storytelling. From vibrant landscapes to intimate portraits, every image has a tale to tell. Join me on this visual journey, where art and emotions collide, leaving a lasting imprint on your senses. Enjoy the exploration!</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="Assests\images\pic.JPG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Get in Touch with Jessie</h5>
+        <p class="card-text">I love connecting with people who share my passion for Art. Whether you have a project in mind, a question to ask, or simply want to say hello, I'm just a message away. Your thoughts and ideas are valuable to me, and I'm eager to hear from you. Don't hesitate to reach out - let's start a conversation and create something amazing together!</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    %> <% } else
+    if (title === 'About') { %>
+                 <div class="container mt-5">
+        <div class="card mb-3">
+            <img src="https://img.freepik.com/premium-photo/4k-hd-wallpaper-computer-desktop-with-dark-aesthetic-dope-trippy-wallpapers-cute-girls_12929-108.jpg?w=1380" class="card-img-top" alt="Placeholder Image">
+            <div class="card-body">
+                <h5 class="card-title">Get to know Jessie</h5>
+                <p class="card-text">Exploring the Harmonies of Life: A Multifaceted Journey with Jessie
+
+Welcome to the creative universe of Jessie, a gifted musician and photographer whose artistic brilliance knows no bounds. With a harmonious blend of melodies and visuals, Jessie crafts a captivating narrative that resonates with the soul. As a musician, she orchestrates symphonies that echo the profound emotions of the human experience. Her music weaves intricate tales, capturing moments of joy, heartache, and everything in between. Each note played or sung carries an unspoken story, inviting listeners to immerse themselves in a world where emotions find their voice in melodies. Her compositions, whether soulful ballads, rhythmic beats, or hauntingly beautiful tunes, serve as a testament to her mastery of the art form.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">More than that</h5>
+                <p class="card-text">In the realm of photography, Jessie wears the lens as an extension of her creative spirit. Her photographs are more than mere images; they are portals to emotions, memories, and the unseen beauty of the world. Through her lens, she captures the poetry of everyday life, turning mundane scenes into extraordinary visual poetry. Her portraits are not just pictures; they are glimpses into the souls of her subjects, revealing stories etched in every expression and gaze. The interplay of light and shadow, the subtle nuances of color, and the raw authenticity captured in her photographs tell tales that words often fail to convey. Together, her music and photography create a symphony of senses, inviting the audience to embark on a sensory journey where sound and sight harmonize, resonating in the hearts and minds of those who experience her art.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/860/158/507/dark-skull-3d-abstract-wallpaper-preview.jpg" class="card-img-bottom" alt="Placeholder Image">
+        </div>
+    </div>
+              <% } else 
+              if (title === "Projects") { %>
+                 <div class="container mt-5">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.w3schools.com/bootstrap5/la.jpg" alt="Los Angeles" class="d-block w-100">
+                <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>This dynamic shot captures the Band in the midst of their electrifying performance. Bathed in vibrant stage lights, the band members exude energy, each note resonating with passion and intensity.!</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.w3schools.com/bootstrap5/chicago.jpg" alt="Chicago" class="d-block w-100">
+                <div class="carousel-caption">
+                  <h3>Chicago</h3>
+                  <p>Jessie immortalizes a candid moment of the band tuning their instruments and focusing before their performance. The backstage camaraderie reflects their unity and shared dedication to their music.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.w3schools.com/bootstrap5/ny.jpg" alt="New York" class="d-block w-100">
+                <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>In this lively capture, the band members share a genuine laugh, showcasing the heartwarming bond that defines their collaboration. The image radiates happiness and camaraderie, embodying the spirit of musical creativity within the Band.</p>
+              </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+              <% } else if (title === 'Contact Us') { %>
+
+                  <p><h2>Have a question or want to work together?<h2/></p>
+                  <p>Fill out the form below and I'll get back to you!</p>
+                  <form>
+                  <div class="mb-3">
+                      <label for="fullName" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="fullName" placeholder="Your Full Name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" placeholder="yourname@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="comments" class="form-label">Comments</label>
+                      <textarea class="form-control" id="comments" name="comments" rows="4" required></textarea>
+                  </div>
+                  <div class="col-auto">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                      <!-- Form fields -->
+                  </form>
+              <% } else { %>
+                  <!-- Content for other pages goes here -->
+              <% } %>
+          </div>
